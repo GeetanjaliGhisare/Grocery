@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshCart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="deals-info">
+            <p>Super Value Deals - Save more with coupons </p>
+            <span class="country-opt"><img src="./images/english.svg" alt="">English <i
+                    class="fa-solid fa-angle-down"></i></span>
+        </div>
+
+        <div id="navbar" class="section-m1">
+            <div class="nav-1">
+                <img src="./images/freshcart-logo.svg" alt="">
+                <div class="search-box-wrapper">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search for products">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+
+                    <button class="location"><i class="fa-solid fa-location-dot"></i>Location</button>
+                </div>
+                <div class="nav1-icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="nav-2" class="section-m1">
+            <button class="nav-btn"><i class="fa-solid fa-table-cells-large"></i>All Departments</button>
+
+            <div class="nav2-links">
+                <i class="fa-solid fa-xmark close"></i>
+                <a href="" class="active">Home<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Shop<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Stores<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Mega menu<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Pages<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Account<i class="fa-solid fa-angle-down"></i></a>
+                <a href="">Dashboard</a>
+                <a href="">Docs</a>
+
+            </div>
+            <i class="fa-solid fa-bars hidden-bars"></i>
+        </div>
+    </header>
+
+    <section id="hero" class="section-m1">
+        <div class="hero-img">
+            <h5>Free Shipping - orders over $100</h5>
+            <h1>Free Shipping on orders over $100</h1>
+            <h2>Free Shipping to first time customers only, After promotions and discounts are applied</h2>
+
+            <button class="hero-btn">Show Now<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </section>
+
+    <section id="featured-products" class="section-m1">
+        <div class="card-stack">
+            <div class="card">
+                <img src="images/category-cleaning-essentials.jpg" alt="">
+                <p>Cleaning Essentials</p>
+            </div>
+            <div class="card">
+                <img src="images/category-pet-care.jpg" alt="">
+                <p>Pet Care</p>
+            </div>
+            <div class="card">
+                <img src="images/category-fruits-vegetables.jpg" alt="">
+                <p>Fruits & Vegetables</p>
+            </div>
+            <div class="card">
+                <img src="images/category-cold-drinks-juices.jpg" alt="">
+                <p>Drinks & Beverages</p>
+            </div>
+            <div class="card">
+                <img src="images/category-instant-food.jpg" alt="">
+                <p>Instant Food </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="small-banner" class="section-m1">
+
+        <div class="b1">
+            <h2>Fruits and Vegetables</h2>
+            <p>Get Upto 30% Off</p>
+            <button class="">Shop Now</button>
+        </div>
+        <div class="b2">
+            <h2>Freshly Baked Buns</h2>
+            <p>Get Upto 25% Off</p>
+            <button class="">Shop Now</button>
+        </div>
+    </section>
+
+    <section id="popular-products" class="section-m1">
+        <h2>Popular</h2>
+        <div class="card-stack">
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red">Sale</p>
+                    <p class="green">10%</p>
+                </div>
+                <img src="images/product-img-1.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Haldiram's Sev Bhujia</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers offers-hidden">
+                    <p class="red">Sale</p>
+                    <p class="green">10%</p>
+                </div>
+                <img src="images/product-img-2.jpg" alt="">
+                <h6>Bakery & Biscuits</h6>
+                <h5>NutriChoice Digestive</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers ">
+                    <p class="red offers-move">Buy 1 Get $4.00 Off</p>
+                    <p class="green offers-hidden">40%</p>
+                </div>
+                <img src="images/product-img-3.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Cadbury 5 Star Chocolate</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red ">Hot</p>
+                    <p class="green">40%</p>
+                </div>
+                <img src="images/product-img-4.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Cream & Onion</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red offers-hidden">Sale</p>
+                    <p class="green">35%</p>
+                </div>
+                <img src="images/product-img-5.jpg" alt="">
+                <h6>Instant Food</h6>
+                <h5>Salted Instant Popcorn</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red">Sale</p>
+                    <p class="green">10%</p>
+                </div>
+                <img src="images/product-img-1.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Haldiram's Sev Bhujia</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers offers-hidden">
+                    <p class="red">Sale</p>
+                    <p class="green">10%</p>
+                </div>
+                <img src="images/product-img-3.jpg" alt="">
+                <h6>Bakery & Biscuits</h6>
+                <h5>NutriChoice Digestive</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers ">
+                    <p class="red offers-move">Buy 1 Get $4.00 Off</p>
+                    <p class="green offers-hidden">40%</p>
+                </div>
+                <img src="images/product-img-2.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Cadbury 5 Star Chocolate</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red ">Hot</p>
+                    <p class="green">40%</p>
+                </div>
+                <img src="images/product-img-5.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Cream & Onion</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red offers-hidden">Sale</p>
+                    <p class="green">35%</p>
+                </div>
+                <img src="images/product-img-1.jpg" alt="">
+                <h6>Instant Food</h6>
+                <h5>Salted Instant Popcorn</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red">Sale</p>
+                    <p class="green">10%</p>
+                </div>
+                <img src="images/product-img-4.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Haldiram's Sev Bhujia</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers offers-hidden">
+                    <p class="red">Sale</p>
+                    <p class="green">10%</p>
+                </div>
+                <img src="images/product-img-5.jpg" alt="">
+                <h6>Bakery & Biscuits</h6>
+                <h5>NutriChoice Digestive</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers ">
+                    <p class="red offers-move">Buy 1 Get $4.00 Off</p>
+                    <p class="green offers-hidden">40%</p>
+                </div>
+                <img src="images/product-img-2.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Cadbury 5 Star Chocolate</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red ">Hot</p>
+                    <p class="green">40%</p>
+                </div>
+                <img src="images/product-img-1.jpg" alt="">
+                <h6>Snack & Munchies</h6>
+                <h5>Cream & Onion</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+            <div class="b-card">
+                <div class="offers">
+                    <p class="red offers-hidden">Sale</p>
+                    <p class="green">35%</p>
+                </div>
+                <img src="images/product-img-3.jpg" alt="">
+                <h6>Instant Food</h6>
+                <h5>Salted Instant Popcorn</h5>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+
+                <div class="cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <button class="add"><i class="fa-solid fa-plus"></i> Add</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="best-seller" class="section-m1">
+        <h2>Daily Best Sells</h2>
+        <div class="bestsells">
+            <div class="bestsell-card1">
+                <h3>100% Organic Coffee Beans</h3>
+                <p>Get the best deal before close.</p>
+                <button>Show Now <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="bestsell-card2">
+                <img src="images/product-img-11.jpg" alt="">
+                <h6>Tea Coffee & Drinks</h6>
+                <h5>Roast Ground Coffee</h5>
+                <div class="bestsell-cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <div class="bestsell-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <button><i class="fa-solid fa-plus"></i>Add to Cart Now</button>
+                <div class="timer">
+                    <div class="days">
+                        <h4>1411</h4>
+                        <p>Days</p>
+                    </div>
+                    <div class="hours">
+                        <h4>12</h4>
+                        <p>Hours</p>
+                    </div>
+                    <div class="mins">
+                        <h4>16</h4>
+                        <p>Mins</p>
+                    </div>
+                    <div class="sec">
+                        <h4>3</h4>
+                        <p>Sec</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bestsell-card2">
+                <img src="images/product-img-12.jpg" alt="">
+                <h6>Fruits & Vegetables</h6>
+                <h5>Golden Pineapple</h5>
+                <div class="bestsell-cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <div class="bestsell-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <button><i class="fa-solid fa-plus"></i>Add to Cart Now</button>
+                <div class="timer">
+                    <div class="days">
+                        <h4>1411</h4>
+                        <p>Days</p>
+                    </div>
+                    <div class="hours">
+                        <h4>12</h4>
+                        <p>Hours</p>
+                    </div>
+                    <div class="mins">
+                        <h4>16</h4>
+                        <p>Mins</p>
+                    </div>
+                    <div class="sec">
+                        <h4>3</h4>
+                        <p>Sec</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bestsell-card2">
+                <img src="images/product-img-13.jpg" alt="">
+                <h6>Fruits & Vegetables</h6>
+                <h5>Crushed Tomatoes</h5>
+                <div class="bestsell-cost">
+                    <p>$21.6 <span class="cut-text"><del>$24</del></span></p>
+                    <div class="bestsell-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+                <button><i class="fa-solid fa-plus"></i>Add to Cart Now</button>
+                <div class="timer">
+                    <div class="days">
+                        <h4>1411</h4>
+                        <p>Days</p>
+                    </div>
+                    <div class="hours">
+                        <h4>12</h4>
+                        <p>Hours</p>
+                    </div>
+                    <div class="mins">
+                        <h4>16</h4>
+                        <p>Mins</p>
+                    </div>
+                    <div class="sec">
+                        <h4>3</h4>
+                        <p>Sec</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="other-info" class="section-m1">
+        <div class="clock">
+            <i class="fa-regular fa-clock"></i>
+            <h4>10 min grocery now</h4>
+            <p>Get your order deliverd to your doorstep at the earliest from Freshcart pickup stores near you.</p>
+        </div>
+        <div class="clock">
+            <i class="fa-solid fa-gift"></i>
+            <h4>Best Prices & Offers</h4>
+            <p>Cheaper prices than your local supermarket, great cashback offers to top it off. Get best prices and
+                offers.</p>
+        </div>
+        <div class="clock">
+            <i class="fa-solid fa-cube"></i>
+            <h4>Wide Assortment</h4>
+            <p>Choose from 5000+ prducts across food, personal care, household, bakery, veg & non-veg & other
+                categories.</p>
+        </div>
+        <div class="clock">
+            <i class="fa-solid fa-arrows-rotate"></i>
+            <h4>Easy Returns</h4>
+            <p>Not satisfieed with the product? Return it at the doorstep and get a refund within hours. No questions
+                asked policy.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div id="foot-content" class="section-m1">
+            <div class="category">
+
+                <div class="categories1">
+                    <h4>Categories</h4>
+                    <a href="">
+                        <p>Vegetables &Fruits</p>
+                    </a>
+                    <a href="">
+                        <p>Breakfast & instant food</p>
+                    </a>
+                    <a href="">
+                        <p>Bakery & Biscuits</p>
+                    </a>
+                    <a href="">
+                        <p>Atta, rice & Dal</p>
+                    </a>
+                    <a href="">
+                        <p>Sauces & Spreads</p>
+                    </a>
+                    <a href="">
+                        <p>Organic & Gourment</p>
+                    </a>
+                    <a href="">
+                        <p>Baby Care</p>
+                    </a>
+                    <a href="">
+                        <p>Cleaning Essentials</p>
+                    </a>
+                    <a href="">
+                        <p>Personal Care</p>
+                    </a>
+                </div>
+                <div class="categories2">
+                    <a href="">
+                        <p>Dairy Breads &Eggs</p>
+                    </a>
+                    <a href="">
+                        <p>Cold drink & juices</p>
+                    </a>
+                    <a href="">
+                        <p>Tea, Coffee & drinks</p>
+                    </a>
+                    <a href="">
+                        <p>Masala Oil & more</p>
+                    </a>
+                    <a href="">
+                        <p>Chicken, Meat & Fish</p>
+                    </a>
+                    <a href="">
+                        <p>Paan corner</p>
+                    </a>
+                    <a href="">
+                        <p>Pharma & wellness</p>
+                    </a>
+                    <a href="">
+                        <p>Home & Office</p>
+                    </a>
+                    <a href="">
+                        <p>Pet care</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="knowmore">
+                <h4>Get to know us</h4>
+                <a href="">
+                    <p>Company</p>
+                </a>
+                <a href="">
+                    <p>About</p>
+                </a>
+                <a href="">
+                    <p>Blog</p>
+                </a>
+                <a href="">
+                    <p>Helpcenter</p>
+                </a>
+                <a href="">
+                    <p>Our value</p>
+                </a>
+            </div>
+
+            <div class="consumers">
+                <h4>For Conusmers</h4>
+                <a href="">
+                    <p>Payments</p>
+                </a>
+                <a href="">
+                    <p>Shipping</p>
+                </a>
+                <a href="">
+                    <p>Product Returns</p>
+                </a>
+                <a href="">
+                    <p>FAQ</p>
+                </a>
+                <a href="">
+                    <p>Shop Checkout</p>
+                </a>
+            </div>
+
+            <div class="shopper">
+                <h4>Become a shopper</h4>
+                <a href="">
+                    <p>Shopper Opportunities</p>
+                </a>
+                <a href="">
+                    <p>Become a Shopper</p>
+                </a>
+                <a href="">
+                    <p>Earrings</p>
+                </a>
+                <a href="">
+                    <p>Ideas & Guides</p>
+                </a>
+                <a href="">
+                    <p>New Retailers</p>
+                </a>
+            </div>
+
+            <div class="programs">
+                <h4>Freshcart Progrmas</h4>
+                <a href="">
+                    <p>Freshchart Programs</p>
+                </a>
+                <a href="">
+                    <P>Gift Cards</P>
+                </a>
+                <a href="">
+                    <p>Promo & Coupons</p>
+                </a>
+                <a href="">
+                    <p>Freshcart Ads</p>
+                </a>
+                <a href="">
+                    <p>Careers</p>
+                </a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="payment-opt section-m1">
+            <div class="left-cont">
+                <h3>Payment Partners</h3>
+                <a href=""><img src="./images/amazonpay.svg" alt=""></a>
+                <a href=""><img src="./images/american-express.svg" alt=""></a>
+                <a href=""><img src="./images/mastercard (1).svg" alt=""></a>
+                <a href=""><img src="./images/paypal.svg" alt=""></a>
+                <a href=""><img src="./images/visa (1).svg" alt=""></a>
+            </div>
+
+            <div class="right-cont">
+                <h3>Get deliveries with FreshCart</h3>
+                <a href=""><img src="./images/appstore-btn.svg" alt=""></a>
+                <a href=""><img src="./images/googleplay-btn.svg" alt=""></a>
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="copyright section-m1">
+            <div class="l-cont">
+                <p><i class="fa-regular fa-copyright"></i> 2022 - 2024 FreshCart ecommerce HTML Template. All rights
+                    reserved. Powered by <span class="g-text"> Codescandy</span></p>
+            </div>
+            <div class="r-cont">
+                <h5>Follow us on</h5>
+                <i class="fa-brands fa-facebook-f facebk"></i>
+                <i class="fa-brands fa-twitter twit"></i>
+                <i class="fa-brands fa-instagram insta"></i>
+            </div>
+        </div>
+        <span class="section-m1 final-btn"><button><i class="fa-solid fa-cart-shopping"></i>Buy Now</button></span>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
